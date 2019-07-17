@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<style>
+#box{
+    width: 400px;
+    height: 100px;
+    background-color: #ccc;
+}
+</style>
+</head>
+<body>
+
+<button id="jquery">jquery按钮</button>
+<div id="box"></div>
+
+<script src="jquery-1.8.3.js"></script>
+<script>
+
+// var obj1 = {a: 1, b: 2};
+// var obj2 = {c: {d: 4, e: 5}};
+// var obj3 = $.extend({},obj2);
+
+// $.extend(obj1,obj2);// 合并对象
+// console.log(obj1);
+
+// console.log(obj3);
+// console.log(obj3.c === obj2.c);//true 浅拷贝
+
+
+// Object.assign(obj1,obj2);// 合并对象
+// var obj4 = Object.assign({},obj2);// 浅拷贝
+// console.log(obj4);
+
+// 扩展jq对象的属性方法
+// $.extend(jQuery.prototype,{
+//     version: '1.8.3',
+//     fly: function (){
+//         alert('I can fly');
+//     }
+// });
+
+// $('#box').fly();
+// console.log( $('#box').version );
+// console.log( $('#box').jquery );
+
+
+// 扩展jQuery类的方法
+// $.extend({
+//     version: '1.8.3',
+//     fly: function (){
+//         alert('I can fly');
+//     }
+// });
+// $('#box').fly();//无法访问
+// console.log( $('#box').version );//无法访问
+
+// $.fly();
+// console.log($.version);
+
+// jQuery.fly();
+// console.log(jQuery.version);
+
+
+// Cat.prototype.say = function (){
+//     // this -> Cat 的实例
+// }
+
+// $.fn.extend扩展jq对象的方法
+// jQuery源码:jQuery.fn = jQuery.prototype = {...}
+$.fn.extend({
+    rclick: function (fn){
+        $(this).mousedown(function (e){
+            if (e.which == 3) {
+                fn();
+            }
+        })
+    }
+});
+
+$('#box').rclick(function (){
+    alert('点击右键');
+})
+
+
+
+</script>
+</body>
+</html>

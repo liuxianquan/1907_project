@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<style>
+#box{
+    width: 400px;
+    height: 100px;
+    background-color: #ccc;
+}
+</style>
+</head>
+<body>
+
+<button id="jquery">jquery按钮</button>
+<button id="prototype">prototype按钮</button>
+<div id="box"></div>
+
+
+<script src="prototype-1.6.0.js"></script>
+<script src="jquery-1.8.3.js"></script>
+<!-- jquery最后引用,拥有$使用权 -->
+<script>
+// prototype获取id 元素,返回原生dom,可以直接使用原生api
+$('prototype').onclick = function (){//prototype里面的$, $无效
+    $('box').style.background = 'pink';
+}
+
+// $('#jquery').click(function (){//$有效
+//     $('#box').css('background','blue');
+// })
+
+jQuery('#jquery').click(function (){//$有效
+    jQuery('#box').css('background','blue');
+})
+
+</script>
+</body>
+</html>

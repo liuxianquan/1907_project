@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+</head>
+<body>
+
+<button class="btn">请求数据</button>
+<h1 class="con"></h1>
+
+<script src="jquery-1.8.3.js"></script>
+<script>
+
+$('.btn').click(function (){
+
+    $.ajax({
+        url: 'data/test1.txt',
+        type: 'get',
+        data: 'abc=123',
+        cache: false,//不使用缓存
+        dataType: 'text',
+        success: function (data){
+            $('.con').text(data);
+        }
+    });
+
+})
+
+
+</script>
+</body>
+</html>

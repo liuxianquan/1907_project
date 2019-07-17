@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<style>
+.wrap{
+    width: 500px;
+    margin: 40px auto 0;
+}
+.ipt{
+    width: 496px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+}
+.list li{
+    padding: 5px 10px;
+    background-color: #eee;
+}
+.list li:hover{
+    background-color: #ccc;
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+    <input type="text" class="ipt">
+    <ul class="list">
+        
+    </ul>
+
+</div>
+
+<script src="jquery-1.8.3.js"></script>
+<script>
+
+$('.ipt').keyup(function (){
+
+    $.ajax({
+        url: 'http://suggestion.baidu.com/su',
+        type: 'get',
+        data: 'wd='+$('.ipt').val(),
+        dataType: 'jsonp',//发送 jsonp 请求
+        jsonp: 'cb',
+        jsonpCallback: 'mycb',
+        success: function (data){
+            $('.list').empty();
+            // $('.list').html('');
+            $.each(data.s,function (index,item){
+                $('.list').append('<li>'+item+'</li>');
+            });
+        },
+        error: function (er){
+            alert('请求失败');
+        }
+    });
+
+})
+
+
+</script>
+</body>
+</html>
