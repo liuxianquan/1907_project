@@ -1,0 +1,38 @@
+.hgx_banner_long {
+  width: 100%;
+  background: #edeff3;
+  height: 380px; }
+  .hgx_banner_long .hgx_banner {
+    height: 100%;
+    background: url(../images/hgx_logo.jpg) center center no-repeat; }
+
+.hgx_nav_long {
+  width: 100%;
+  background: #f7f8f9; }
+  .hgx_nav_long .hgx_nav p {
+    color: #707473;
+    padding: 24px 0;
+    font-size: 12px;
+    margin: 0 0 0 6.5%; }
+    .hgx_nav_long .hgx_nav p a {
+      color: #707473; }
+    .hgx_nav_long .hgx_nav p span {
+      padding: 0 10px 0 10px; }
+
+.hgx_section_long {
+  width: 100%; }
+  .hgx_section_long .hgx_section {
+    height: 50px; }
+    .hgx_section_long .hgx_section h3 {
+      text-align: center;
+      margin-top: 81px;
+      margin-bottom: 30px;
+      font-size: 20px;
+      color: #707473; }
+    .hgx_section_long .hgx_section p {
+      text-align: center;
+      font-size: 12px;
+      color: #979797;
+      margin-bottom: 63px; }
+
+/*# sourceMappingURL=index.css.map */
