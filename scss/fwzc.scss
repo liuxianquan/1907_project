@@ -1,0 +1,119 @@
+.hgx_banner_long {
+    width: 100%;    
+    background: #edeff3;
+    height: 380px;
+    .hgx_banner {
+        height: 100%;
+        background: url(../images/hgx_logo.jpg)center center no-repeat;
+    }
+}
+.hgx_nav_long{
+    width: 100%;
+    background: #f7f8f9;
+    .hgx_nav{
+        p{
+            color: #707473;
+            padding:  24px 0;
+            font-size: 12px;
+            margin:0 0 0 6.5%;
+            a{
+                color: #707473;               
+            }
+            span{
+                padding:  0 10px 0 10px;
+            }
+        }
+        
+    }
+}
+.hgx_section_long{
+    width:100%;
+    .hgx_section{
+//      width: 1200px;
+//      margin: 0 auto;
+        height: 50px;
+        margin-bottom: 63px;
+        h3{
+           text-align: center;
+           margin-top: 81px;
+               margin-bottom: 30px;
+               font-size: 20px;
+               color: #707473;
+        }
+        p{
+             text-align: center;
+             font-size: 14px;
+             color: #979797;
+            
+        }
+    }
+}
+.hgx_row_long{
+    width:100%;
+   
+    .hgx_row{
+        width: 1200px;
+        margin: 0 auto;
+        margin-bottom:120px; 
+        a{
+            width: 153px;
+            height: 153px;
+            border: 1px solid #707473;
+           border-radius:3px; 
+            display: inline-block;
+            margin: 0 18px 0 18px;
+            img{
+               width: 60px;
+               height: 60px;
+                margin: 20px 0 9px 46px;
+                
+            }
+            h3{
+                text-align: center;
+                font-size: 14px;
+                color: #707473;
+            }
+        }
+        a:hover{
+            background:#f7f8f9;
+        }
+
+    }
+}
+.hgx_figure_long{
+    width: 100%;
+    .hgx_figure{
+       
+        h3{
+            text-align: center;
+            font-size: 20px;
+            padding: 31px 0 27px 0;
+            background:#f7f8f9 ;
+        }
+    }
+}
+.hgx_contact_long{
+    width: 100%;
+    .hgx_contact{
+        width: 1200px;
+        margin: 0 auto;
+        .hgx_contactbox{
+            // width: 93px;
+            // height: 93.422px;
+           
+            float: left;
+            margin-top:76px;
+            margin:  0 96.5px;
+            img{
+                width: 93px;
+    
+            }
+            h4{
+                font-size: 14px;
+                text-align: center;
+            }
+
+        }
+    }
+
+}
