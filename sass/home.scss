@@ -4,32 +4,6 @@
     width: 100%;
     position: absolute;
     z-index: 10;
-    &：hover{
-        background: #fff;
-        a{
-            color: #000;
-        }
-        .logo{
-                span{
-                    background-image: url(../images/lxq-logo2.png);
-                }
-        }
-        .home-head-acount{
-            .home-head-acount-a{
-           
-                background:url(../images/lxq-acount2.png) ;
-            
-            }
-        }
-        .home-head-search{
-         
-            a{
-                background:url(../images/lxq-search2.png) ;
-        
-            }
-        }
-
-    }
     .home-head-container{
         width: 1200px;
         margin: 0 auto;

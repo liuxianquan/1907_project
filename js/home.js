@@ -1,16 +1,16 @@
 function headfade(){
     $(this).css('background','none');
     $('#home-head a').css('color','#fff');
-    $('.logo span').css('background-image','url(images/lxq-logo.png)');
-    $('.home-head-search a').css('background-image','url(images/lxq-search.png)');
-    $('.home-head-acount .home-head-acount-a').css('background-image','url(images/lxq-acount.png)');
+    $('.logo span').css('background-image','url(../images/lxq-logo.png)');
+    $('.home-head-search a').css('background-image','url(../images/lxq-search.png)');
+    $('.home-head-acount .home-head-acount-a').css('background-image','url(../images/lxq-acount.png)');
 }
 $('#home-head').on('mouseover',function(){
     $(this).css('background','#fff');
     $('#home-head a').css('color','#000');
-    $('.logo span').css('background-image','url(images/lxq-logo2.png)');
-    $('.home-head-search a').css('background-image','url(images/lxq-search2.png)');
-    $('.home-head-acount .home-head-acount-a').css('background-image','url(images/lxq-acount2.png)');
+    $('.logo span').css('background-image','url(../images/lxq-logo2.png)');
+    $('.home-head-search a').css('background-image','url(../images/lxq-search2.png)');
+    $('.home-head-acount .home-head-acount-a').css('background-image','url(../images/lxq-acount2.png)');
 });
 $('#home-head').on('mouseout',headfade);
 //选择头部导航
