@@ -1,8 +1,24 @@
+@charset "UTF-8";
 .home-head {
   height: 64px;
   width: 100%;
   position: absolute;
   z-index: 10;
+}
+.home-head：hover {
+  background: #fff;
+}
+.home-head：hover a {
+  color: #000;
+}
+.home-head：hover .logo span {
+  background-image: url(../images/lxq-logo2.png);
+}
+.home-head：hover .home-head-acount .home-head-acount-a {
+  background: url(../images/lxq-acount2.png);
+}
+.home-head：hover .home-head-search a {
+  background: url(../images/lxq-search2.png);
 }
 .home-head .home-head-container {
   width: 1200px;
@@ -247,6 +263,8 @@
   display: none;
   position: absolute;
   left: 823px;
+  top: 64px;
+  z-index: 100;
 }
 .nav5 li {
   width: 140px;
