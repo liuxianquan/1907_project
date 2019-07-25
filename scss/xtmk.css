@@ -1,0 +1,99 @@
+html body {
+  width: 100%;
+}
+
+.hgx_header_long {
+  height: 400px;
+  margin: 0 auto;
+  background: url(../images/hgx_x01.jpg) no-repeat;
+  background-size: cover;
+}
+.hgx_header_long .hgx_header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+}
+.hgx_header_long .hgx_header h2 {
+  color: white;
+  font-size: 40px;
+  padding: 126px 0 21px 0;
+}
+.hgx_header_long .hgx_header h3 {
+  color: white;
+  font-size: 16px;
+}
+
+.hgx_main_long {
+  background: #f2f2f2;
+}
+
+.hgx_main {
+  width: 1200px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  padding-top: 40px;
+}
+.hgx_main .hgx_main_left {
+  width: 285px;
+  min-height: 475px;
+  background: #ffffff;
+  float: left;
+}
+.hgx_main .hgx_main_left ul {
+  float: left;
+}
+.hgx_main .hgx_main_left ul li {
+  font-size: 16px;
+  line-height: 40px;
+  margin-left: 32px;
+}
+.hgx_main .hgx_main_left ul li:nth-child(1) {
+  font-size: 18px;
+  padding-top: 36px;
+  font-weight: 800;
+}
+.hgx_main .hgx_main_right {
+  background: #ffffff;
+  float: right;
+  width: 437px;
+  height: 474px;
+  margin: 0px 0 20px 20px;
+}
+.hgx_main .hgx_main_right img {
+  width: 270px;
+  height: 270px;
+  display: block;
+  margin: 0 auto;
+}
+.hgx_main .hgx_main_right h3 {
+  font-size: 24px;
+  margin-left: 34px;
+  margin-bottom: 16px;
+}
+.hgx_main .hgx_main_right h4 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 34px;
+  width: 370px;
+  line-height: 24px;
+}
+.hgx_main .hgx_main_right .hgx_shop {
+  text-align: center;
+  display: inline-block;
+  padding-top: 12px;
+  background: #393b3d;
+  width: 128px;
+  height: 34px;
+  color: #ffffff;
+  margin: 33px 33px 0 32px;
+}
+.hgx_main .hgx_main_right .hgx_shop:hover {
+  background: #494c4d;
+}
+.hgx_main .hgx_main_right .hgx_more {
+  color: #303233;
+}
+.hgx_main .hgx_main_right .hgx_more span {
+  color: #303233;
+  font-size: 16px;
+}
