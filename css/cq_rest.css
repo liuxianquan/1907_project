@@ -1,0 +1,26 @@
+html,body,ul,ol,dl,li,dd,dt,h1,h2,h3,h4,h5,h6,p,span,i,b,em,strong,table,fieldset,legend,img,input{
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	height:100%;
+	width: 100%;
+	font-size: 16px;
+}
+li{list-style: none;}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	font-size:1px;
+}
+img{
+	vertical-align: top;
+    border: none;
+}

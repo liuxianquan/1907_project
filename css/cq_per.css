@@ -1,0 +1,59 @@
+body {
+  background: #eee; }
+
+.login_wrap {
+  padding-top: 50px; }
+
+.login_main {
+  margin: 30px auto;
+  width: 1000px;
+  height: 595px;
+  background: #fff; }
+  .login_main .main_left {
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: relative; }
+    .login_main .main_left .logo {
+      position: absolute;
+      padding: 40px;
+      z-index: 2; }
+      .login_main .main_left .logo img {
+        width: 52px;
+        height: 30px; }
+    .login_main .main_left .swiper-slide {
+      width: 500px;
+      height: 595px;
+      position: relative; }
+      .login_main .main_left .swiper-slide .title-container {
+        position: absolute;
+        right: 40px;
+        bottom: 70px;
+        color: #fff;
+        text-align: right; }
+        .login_main .main_left .swiper-slide .title-container .title {
+          font-size: 35px;
+          line-height: 35px; }
+        .login_main .main_left .swiper-slide .title-container .sub-title {
+          margin-top: 15px;
+          font-size: 16px;
+          line-height: 16px; }
+      .login_main .main_left .swiper-slide img {
+        width: 100%;
+        height: 100%; }
+  .login_main .main_right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    position: relative; }
+
+.login_footer {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+  color: #979797; }
+  .login_footer a {
+    text-decoration: underline;
+    color: #979797; }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/cq_rest.css">
+		<link rel="stylesheet" href="css/cq_per.css">
+		<link rel="stylesheet" href="css/cq_reg.css">
+		<link rel="stylesheet" href="swiper-4.5.0/dist/css/swiper.min.css">
+		<link rel="stylesheet" href="font/iconfont.css">
+	</head>
+
+	<body>
+		<div class="login_wrap">
+			<div class="login_main">
+				<div class="main_left">
+					<div class="logo">
+						<a href="#">
+							<img src="img/cq_logo.png" alt="">
+						</a>
+					</div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="img/cq_dl1.jpg" alt="">
+								<div class="title-container">
+									<div class="title">渔夫收网</div>
+									<div class="sub-title">©️ 郑戈</div>
+
+								</div>
+
+							</div>
+							<div class="swiper-slide">
+								<img src="img/cq_dl2.jpg" alt="">
+								<div class="title-container">
+									<div class="title">天桥</div>
+									<div class="sub-title">©️ 城涵</div>
+
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="img/cq_dl3.jpg" alt="">
+								<div class="title-container">
+									<div class="title">探</div>
+									<div class="sub-title">©️ 王汉冰</div>
+
+								</div>
+							</div>
+						</div>
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination swiper-pagination-white"></div>
+
+						<!-- 如果需要导航按钮 -->
+						<div class="swiper-button-prev swiper-button-white"></div>
+						<div class="swiper-button-next swiper-button-white"></div>
+					</div>
+				</div>
+				<div class="main_right">
+					<div class="reg_box">
+						<div class="reg_logo">
+							<span class="iconfont">&#xe60e;</span>
+						</div>
+						<div class="reg_title">注册</div>
+						<div class="row_tab">
+							<div class="phone_reg focus">手机注册</div>
+							<div class="email_reg">邮箱注册</div>
+						</div>
+						<div class="box_content">
+							<div class="phone content">
+								<form class="phone_form" action="#" method="">
+									<div class="phone_ent">
+										<div class="phone_d">+86</div>
+										<div class="phone_numb">
+											<div class="lap">请输入手机号*</div>
+											<input type="text" class="phone_input" required=true digits=true maxlength=13 minlength=11 />
+										</div>
+									</div>
+									<div class="form_move">
+										<div class="move_left iconfont">&#xe633;</div>
+										<div class="move_out"></div>
+										<span>请按住滑块，拖到最右边</span>
+									</div>
+									<div class="phone_row">
+										<div class="lap">短信验证码*</div>
+										<input type="text" class="numb_result" required=true >
+										<span></span>
+										<button type="button" class="result_set">发送验证码</button>
+									</div>
+									<div class="yzm"></div>
+									<div class="phone_row">
+										<button type="button" class="phone_next">下一步</button>
+									</div>
+								</form>
+							</div>
+							<div class="email content">
+								<form class="email_form" action="" method="">
+
+
+									<div class="email_ent">
+										<div class="lap">邮箱*</div>
+										<input type="text" class="numb_e" required=true email=true rangelength=[6,18] />
+									</div>
+									<div class="email_row">
+										<div class="lap">
+											密码*
+										</div>
+										<input type="password" class="pass_e" required=true rangelength=[6,18] />
+									</div>
+									<div class="email_row">
+										<div class="lap">
+											再次输入密码*
+										</div>
+										<input type="password" class="pass_em" required=true />
+									</div>
+									<div class="form_move">
+										<span>请按住滑块，拖到最右边</span>
+										<div class="move_left iconfont">&#xe633;</div>
+										<div class="move_out"></div>
+									</div>
+									<div class="check_text">
+										<div class="check_row">
+											<input type="checkbox" class="check_one" value="" />
+											<span>获取大疆最新产品、服务、软件升级等信息。</span>
+										</div>
+										<div class="check_row">
+											<input type="checkbox" class="check_two" value="" />
+											<span>同意并愿意遵守大疆创新 <a href="https://www.dji.com/cn/policy">隐私政策</a> 和
+												<a href="https://www.dji.com/cn/terms">使用条款</a> 。</span>
+										</div>
+									</div>
+									<div class="email_row">
+										<button type="button" class="email_sub">提交</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="to_login"><a href="./cq_login.html">立即登录</a></div>
+
+					</div>
+				</div>
+			</div>
+			<div class="login_footer">
+				Copyright © 2019 DJI All Rights Reserved. &nbsp;
+				<span><a href="https://www.dji.com/cn/policy" target="_blank">隐私政策</a></span>
+				<span><a href="https://www.dji.com/cn/terms" target="_blank">使用条款</a></span>
+				<span><a href="https://www.dji.com/cn/sitemap" target="_blank">网站地图</a></span>
+				<br />
+				如果您有任何关于DJI账户的问题，请
+				<span><a href="https://www.dji.com/cn/support" target="_blank">点击此处</a>。</span>
+				<br />
+				粤ICP备12022215号-11
+			</div>
+		</div>
+		<script src="./jquery-1.8.3/jquery-1.8.3.min.js"></script>
+		<!-- <script src="jquery-1.8.3/jquery.validate.js" type="text/javascript" charset="utf-8"></script> -->
+		<!-- <script src="jquery-1.8.3/jquery.validate.messages_zh.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="./swiper-4.5.0/dist/js/swiper.min.js"></script>
+		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/cq_lunbo.js"></script>
+		<script src="./js/cq_reg.js"></script>
+	</body>
+
+</html>
