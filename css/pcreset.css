@@ -1,0 +1,31 @@
+html,body,ul,ol,dl,li,dd,dt,h1,h2,h3,h4,h5,h6,p,span,i,b,em,strong,table,fieldset,legend,img,input{padding: 0;margin: 0;}
+body,html{
+	height:100%;
+	width: 100%;
+	font:14px "微软雅黑",Arial;
+	color: #333333;
+}
+img{vertical-align: top;}
+li{list-style: none;}
+
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;	
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+input{
+	outline:none; /*消除文本框*/	
+}
+.clearfix{
+	*zoom:1;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+}
