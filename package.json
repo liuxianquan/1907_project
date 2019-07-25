@@ -1,0 +1,29 @@
+{
+  "name": "1907_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-babel": "^8.0.0",
+    "gulp-load-plugins": "^2.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxianquan/1907_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuxianquan/1907_project/issues"
+  },
+  "homepage": "https://github.com/liuxianquan/1907_project#readme"
+}
