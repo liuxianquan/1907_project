@@ -171,14 +171,14 @@ $('.numb_result').change(function(){
 })
 $('.phone_next').click(function(){
 	if(phone() && moFlag && zmflag){
-		$(location).attr('href',"cq_login.html");
+		$(location).attr('href',"home.html");
 	}
 })
 $('.email_sub').mouseover(function(){
 	if(email() && pass1() && pass1()){
 		$(this).css('opacity',1)
 		$('.email_sub').click(function(){
-			$(location).attr('href',"cq_login.html");
+			$(location).attr('href',"home.html");
 		})
 	}else{
 		$(this).css('opacity','.6');

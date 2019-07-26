@@ -20,7 +20,7 @@ $('.password').change(function(){
 })
 function user() {
 	var userFlag = false;
-	if ($('.userName').val() == 'djxm8899') {
+	if ($('.userName').val() == '15976752027') {
 		$('.userName').next().remove();
 		return userFlag = true;
 	} else {
@@ -49,7 +49,7 @@ function password() {
 $('.sub_btn').click(function(){
 	console.log(password());
 	if(password() && user()){
-		$(location).attr('href',"cq_reg.html");
+		$(location).attr('href',"home.html");
 	}
 })
 $('.box_btn').click(function(){
